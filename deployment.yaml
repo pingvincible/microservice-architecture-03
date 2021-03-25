@@ -1,0 +1,39 @@
+apiVersion: apps/v1
+kind: Deployment
+metadata:
+    name: crud-deployment
+spec:
+    replicas: 3
+    selector:
+       matchLabels:
+          app: crud-service-app
+    template:
+       metadata:
+          labels:
+             app: crud-service-app
+       spec:
+          containers:
+          - name: crud-service
+            image: pingvincible/crud-service:0.6
+            env:
+              - name: DATABASE_URI
+                valueFrom:
+                  secretKeyRef:
+                    name: crud-secret
+                    key: DATABASE_URI
+            ports:
+              - name: web
+                containerPort: 8000
+            livenessProbe:
+              httpGet:
+                port: 8000
+                path: /
+              initialDelaySeconds: 10
+              periodSeconds: 5
+              timeoutSeconds: 2
+            readinessProbe:
+              httpGet:
+                port: 8000
+                path: /health
+              initialDelaySeconds: 10
+              periodSeconds: 5    

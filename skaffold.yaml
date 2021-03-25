@@ -1,0 +1,14 @@
+apiVersion: skaffold/v2alpha4
+kind: Config
+metadata:
+  name: configuration
+build:
+  artifacts:
+  - image: pingvincible/crud-service
+deploy:
+  kubectl:
+    manifests:
+    - app-config.yaml
+    - deployment.yaml
+    - service.yaml
+    - ingress.yaml

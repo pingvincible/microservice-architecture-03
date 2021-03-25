@@ -1,0 +1,43 @@
+apiVersion: apps/v1
+kind: Deployment
+metadata:
+  name: {{ include "crud-chart.fullname" . }}
+  labels: 
+    {{- include "crud-chart.labels" . | nindent 4 }}
+spec:
+  replicas: {{ .Values.replicaCount }}
+  selector:
+    matchLabels:
+      {{- include "crud-chart.selectorLabels" . | nindent 6 }}
+  template:
+    metadata:
+      labels: {{- include "crud-chart.selectorLabels" . | nindent 8 }}
+      annotations:
+        checksum/config: {{ include (print $.Template.BasePath "/app-config.yaml") . | sha256sum }}
+    spec:
+      containers:
+      - name: {{ .Chart.Name }}
+        image: {{ .Values.image.repository }}:{{ .Chart.AppVersion }}
+        env:
+          - name: DATABASE_URI
+            valueFrom:
+              secretKeyRef:
+                name: crud-secret
+                key: DATABASE_URI
+        ports:
+          - name: web
+            containerPort: 8000
+            protocol: TCP
+        livenessProbe:
+          httpGet:
+            port: 8000
+            path: /
+          initialDelaySeconds: 10
+          periodSeconds: 5
+          timeoutSeconds: 2
+        readinessProbe:
+          httpGet:
+            port: 8000
+            path: /health
+          initialDelaySeconds: 10
+          periodSeconds: 5

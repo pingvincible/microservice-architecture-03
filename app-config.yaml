@@ -1,0 +1,13 @@
+apiVersion: v1
+kind: ConfigMap
+metadata:
+  name: crud-config
+---
+apiVersion: v1
+kind: Secret
+metadata:
+  name: crud-secret
+type: Opaque
+data:
+  DATABASE_URI: aG9zdD1wb3N0Z3JlcyB1c2VyPWNydWR1c2VyIHBhc3N3b3JkPWNydWRwYXNzIGRibmFtZT1jcnVkYXBwIHNzbG1vZGU9ZGlzYWJsZSBUaW1lWm9uZT1Bc2lhL0FsbWF0eQo=
+
