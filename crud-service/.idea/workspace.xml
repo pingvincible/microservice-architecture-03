@@ -10,7 +10,14 @@
     <select />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="3a7ceee1-1945-4a7a-ad4c-8ced0e7f097d" name="Default Changelist" comment="" />
+    <list default="true" id="3a7ceee1-1945-4a7a-ad4c-8ced0e7f097d" name="Default Changelist" comment="">
+      <change beforePath="$PROJECT_DIR$/../crud-chart/Chart.yaml" beforeDir="false" afterPath="$PROJECT_DIR$/../crud-chart/Chart.yaml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmd/main/main.go" beforeDir="false" afterPath="$PROJECT_DIR$/cmd/main/main.go" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/go.mod" beforeDir="false" afterPath="$PROJECT_DIR$/go.mod" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/go.sum" beforeDir="false" afterPath="$PROJECT_DIR$/go.sum" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pkg/routes/app-routes.go" beforeDir="false" afterPath="$PROJECT_DIR$/pkg/routes/app-routes.go" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -43,7 +50,7 @@
     <property name="configurable.Project.GOPATH.is.expanded" value="true" />
     <property name="go.import.settings.migrated" value="true" />
     <property name="go.tried.to.enable.integration.vgo.integrator" value="true" />
-    <property name="last_opened_file_path" value="$USER_HOME$" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="settings.editor.selected.configurable" value="go.vgo" />
   </component>
   <component name="RunManager">
@@ -102,22 +109,26 @@
       <screen x="56" y="27" width="1864" height="1053" />
     </state>
     <state x="525" y="336" width="906" height="448" key="FileDocumentManager.FileCacheConflict/56.27.1864.1053/1920.0.1280.720@56.27.1864.1053" timestamp="1616158549308" />
-    <state width="1818" height="340" key="GridCell.Tab.0.bottom" timestamp="1616526376883">
-      <screen x="56" y="27" width="1864" height="1053" />
+    <state width="1818" height="275" key="GridCell.Tab.0.bottom" timestamp="1616755160991">
+      <screen x="56" y="27" width="3144" height="1053" />
     </state>
     <state width="1818" height="340" key="GridCell.Tab.0.bottom/56.27.1864.1053@56.27.1864.1053" timestamp="1616526376883" />
-    <state width="1818" height="340" key="GridCell.Tab.0.center" timestamp="1616526376883">
-      <screen x="56" y="27" width="1864" height="1053" />
+    <state width="1818" height="275" key="GridCell.Tab.0.bottom/56.27.3144.1053@56.27.3144.1053" timestamp="1616755160991" />
+    <state width="1818" height="275" key="GridCell.Tab.0.center" timestamp="1616755160990">
+      <screen x="56" y="27" width="3144" height="1053" />
     </state>
     <state width="1818" height="340" key="GridCell.Tab.0.center/56.27.1864.1053@56.27.1864.1053" timestamp="1616526376883" />
-    <state width="1818" height="340" key="GridCell.Tab.0.left" timestamp="1616526376882">
-      <screen x="56" y="27" width="1864" height="1053" />
+    <state width="1818" height="275" key="GridCell.Tab.0.center/56.27.3144.1053@56.27.3144.1053" timestamp="1616755160990" />
+    <state width="1818" height="275" key="GridCell.Tab.0.left" timestamp="1616755160990">
+      <screen x="56" y="27" width="3144" height="1053" />
     </state>
     <state width="1818" height="340" key="GridCell.Tab.0.left/56.27.1864.1053@56.27.1864.1053" timestamp="1616526376882" />
-    <state width="1818" height="340" key="GridCell.Tab.0.right" timestamp="1616526376883">
-      <screen x="56" y="27" width="1864" height="1053" />
+    <state width="1818" height="275" key="GridCell.Tab.0.left/56.27.3144.1053@56.27.3144.1053" timestamp="1616755160990" />
+    <state width="1818" height="275" key="GridCell.Tab.0.right" timestamp="1616755160991">
+      <screen x="56" y="27" width="3144" height="1053" />
     </state>
     <state width="1818" height="340" key="GridCell.Tab.0.right/56.27.1864.1053@56.27.1864.1053" timestamp="1616526376883" />
+    <state width="1818" height="275" key="GridCell.Tab.0.right/56.27.3144.1053@56.27.3144.1053" timestamp="1616755160991" />
     <state width="1818" height="340" key="GridCell.Tab.1.bottom" timestamp="1616526376885">
       <screen x="56" y="27" width="1864" height="1053" />
     </state>
