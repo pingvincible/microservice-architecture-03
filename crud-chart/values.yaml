@@ -2,7 +2,6 @@ replicaCount: 3
 
 image:
   repository: pingvincible/crud-service
-  pullPolicy: IfNotPresent
 
 service:
   type: NodePort

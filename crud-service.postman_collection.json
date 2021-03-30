@@ -32,12 +32,13 @@
 					}
 				},
 				"url": {
-					"raw": "http://{{baseUrl}}/user",
+					"raw": "http://{{baseUrl}}/app/user",
 					"protocol": "http",
 					"host": [
 						"{{baseUrl}}"
 					],
 					"path": [
+						"app",
 						"user"
 					]
 				}
@@ -50,12 +51,13 @@
 				"method": "GET",
 				"header": [],
 				"url": {
-					"raw": "http://{{baseUrl}}/user/{{userId}}",
+					"raw": "http://{{baseUrl}}/app/user/{{userId}}",
 					"protocol": "http",
 					"host": [
 						"{{baseUrl}}"
 					],
 					"path": [
+						"app",
 						"user",
 						"{{userId}}"
 					]
@@ -78,12 +80,13 @@
 					}
 				},
 				"url": {
-					"raw": "http://{{baseUrl}}/user/{{userId}}",
+					"raw": "http://{{baseUrl}}/app/user/{{userId}}",
 					"protocol": "http",
 					"host": [
 						"{{baseUrl}}"
 					],
 					"path": [
+						"app",
 						"user",
 						"{{userId}}"
 					]
@@ -97,12 +100,13 @@
 				"method": "DELETE",
 				"header": [],
 				"url": {
-					"raw": "http://{{baseUrl}}/user/{{userId}}",
+					"raw": "http://{{baseUrl}}/app/user/{{userId}}",
 					"protocol": "http",
 					"host": [
 						"{{baseUrl}}"
 					],
 					"path": [
+						"app",
 						"user",
 						"{{userId}}"
 					]

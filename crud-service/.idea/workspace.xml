@@ -12,11 +12,15 @@
   <component name="ChangeListManager">
     <list default="true" id="3a7ceee1-1945-4a7a-ad4c-8ced0e7f097d" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/../crud-chart/Chart.yaml" beforeDir="false" afterPath="$PROJECT_DIR$/../crud-chart/Chart.yaml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../crud-chart/templates/service.yaml" beforeDir="false" afterPath="$PROJECT_DIR$/../crud-chart/templates/service.yaml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../crud-chart/values.yaml" beforeDir="false" afterPath="$PROJECT_DIR$/../crud-chart/values.yaml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../crud-service.postman_collection.json" beforeDir="false" afterPath="$PROJECT_DIR$/../crud-service.postman_collection.json" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmd/main/main.go" beforeDir="false" afterPath="$PROJECT_DIR$/cmd/main/main.go" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/go.mod" beforeDir="false" afterPath="$PROJECT_DIR$/go.mod" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/go.sum" beforeDir="false" afterPath="$PROJECT_DIR$/go.sum" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pkg/routes/app-routes.go" beforeDir="false" afterPath="$PROJECT_DIR$/pkg/routes/app-routes.go" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pkg/controllers/app-controllers.go" beforeDir="false" afterPath="$PROJECT_DIR$/pkg/controllers/app-controllers.go" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../deployment.yaml" beforeDir="false" afterPath="$PROJECT_DIR$/../deployment.yaml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../grafana.yaml" beforeDir="false" afterPath="$PROJECT_DIR$/../grafana.yaml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../nginx-ingress.yaml" beforeDir="false" afterPath="$PROJECT_DIR$/../nginx-ingress.yaml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../prometheus.yaml" beforeDir="false" afterPath="$PROJECT_DIR$/../prometheus.yaml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />

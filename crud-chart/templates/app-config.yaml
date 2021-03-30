@@ -10,4 +10,4 @@ metadata:
 type: Opaque
 data:
   DATABASE_URI: {{ printf "host=%s user=%s password=%s dbname=%s port=%s sslmode=disable" (include "postgresql.fullname" .) .Values.postgresql.postgresqlUsername .Values.postgresql.postgresqlPassword .Values.postgresql.postgresqlDatabase .Values.postgresql.service.port | b64enc | quote }}
-
+  DATABASE_URI_1: {{ printf "postgresql://%s:%s@%s:%s/%s?sslmode=disable" .Values.postgresql.postgresqlUsername .Values.postgresql.postgresqlPassword (include "postgresql.fullname" .) .Values.postgresql.service.port .Values.postgresql.postgresqlDatabase  | b64enc | quote }}
