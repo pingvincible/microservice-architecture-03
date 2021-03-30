@@ -1144,7 +1144,7 @@ data:
         "timeFrom": null,
         "timeRegions": [],
         "timeShift": null,
-        "title": "Error rate (crudapp)",
+        "title": "HTTP status (crudapp)",
         "tooltip": {
           "shared": true,
           "sort": 0,
@@ -1338,7 +1338,7 @@ data:
         "timeFrom": null,
         "timeRegions": [],
         "timeShift": null,
-        "title": "Error rate (nginx)",
+        "title": "HTTP status (nginx)",
         "tooltip": {
           "shared": true,
           "sort": 0,
@@ -1895,5 +1895,5 @@ data:
     "timezone": "",
     "title": "Crudapp dashboard",
     "uid": "AK-uIzlMk",
-    "version": 30
+    "version": 31
   }
