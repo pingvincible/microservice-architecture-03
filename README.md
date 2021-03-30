@@ -18,7 +18,7 @@ Install and start helm services:
 
     helm install prom prometheus-community/kube-prometheus-stack -f prometheus.yaml --atomic
     helm install nginx ingress-nginx/ingress-nginx -f nginx-ingress.yaml --atomic
-    helm install prom-postgres prometheus-community/prometheus-postgres-exporter
+    helm install prom-postgres prometheus-community/prometheus-postgres-exporter -f prometheus-postgres.yaml
 
 Port forwarding: 
     
